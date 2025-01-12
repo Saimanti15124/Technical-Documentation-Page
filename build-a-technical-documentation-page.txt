@@ -1,0 +1,130 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Technical Documentation</title>
+</head>
+  
+<body>
+  <nav id="navbar">
+    <header>HTML Documentation:</header>
+    <a class="nav-link" href="#Introduction_to_HTML">Introduction to HTML</a>
+    <a class="nav-link" href="#HTML_Elements_and_Tags">HTML Elements and Tags</a>
+    <a class="nav-link" href="#HTML_Attributes">HTML Attributes</a>
+    <a class="nav-link" href="#HTML_Headings">HTML Headings</a>
+    <a class="nav-link" href="#HTML_Paragraphs">HTML Paragraphs</a>
+  </nav>
+  
+  <main id="main-doc">
+    <section id="Introduction_to_HTML" class="main-section">
+      <header>Introduction to HTML</header>
+      <p>HTML stands for HyperText Markup Language. It  a form of programming code used to instruct a browser to create the structure for individual web pages on a website. This markup language is a fundamental component of how billions of people perceive and consume pages on the internet.</p>  
+    </section>
+    
+    <section id="HTML_Elements_and_Tags" class="main-section">
+      <header>HTML Elements and Tags</header>
+      <p>HTML documents are made of HTML elements. Everything from the start tag to the end tag is an element. Some examples are: </p>
+      <code>&lt;p&gt;This is a paragraph element&lt;/p&gt;</code>
+      <code><ul>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+        <li>Ordered list item 3</li>
+      </ul> </code> 
+      <code><ol>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+        <li>Ordered list item 3</li>
+      </ol> </code> 
+    </section>
+    
+    <section id="HTML_Attributes" class="main-section">
+      <header>HTML Attributes</header>
+      <p>HTML attributes provide metadata about HTML elements.</p>
+      <p>The href attribute provides a hyperlink reference to web pages, files, email addresses, locations in the same page, or anything a URL can address, etc.</p>
+    </section>
+    
+    <section id="HTML_Headings" class="main-section">
+     <header>HTML Headings</header>
+     <p>HTML headings are titles or subtitles to introduce new sections of a web page.</p>
+     <p><h1>This is Heading 1</h1></p>
+     <p><h2>This is Heading 2</h2></p>
+    </section>
+    
+    <section id="HTML_Paragraphs" class="main-section">
+     <header>HTML Paragraphs</header>
+     <code><p>This is a paragraph.</p></code>
+     <p>Paragraphs are sections of text separated by blank lines. The web browser automatically renders each paragraph with spaces between paragraphs.</p>
+     <code><p>This is another paragraph.</p></code>
+    </section>
+  </main>
+  
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  box-sizing: border-box;
+  background-color: #113344;
+  font-family: Calibri;
+}
+
+#main-doc {
+      margin-left: 310px;
+      padding: 20px;
+      color: #ffeedd;
+    }
+    
+  .main-section {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #ffeedd;
+    }
+    
+  .main-section header {
+      font-weight: bold; 
+    }
+    
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 300px;  
+      border-right: solid 1px floralwhite;
+      color: floralwhite;
+      background-color: #000022;
+      padding-top: 30px;
+      padding-left: 10px;
+    }
+    
+    @media(max-width: 600px) {
+      #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: solid 1px floralwhite;
+      }
+      
+      #main-doc  {  
+        margin-left: 0;
+      }
+    }
+    
+    .nav-link {
+      display: block;
+      padding: 10px 30px;
+      text-decoration: none;
+      color: ivory;
+      font-style: italic;
+    }
+
+
+** end of undefined **
+
